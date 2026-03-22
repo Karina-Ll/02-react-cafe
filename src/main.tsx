@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'modern-normalize/modern-normalize.css';
-
-import App from './components/App/App'; // Переконайся, що тут великі літери!
+// Імпортуємо CSS напряму, щоб уникнути помилок типізації модулів
+import 'modern-normalize/modern-normalize.css'; 
+import App from './components/App/App';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
